@@ -1,9 +1,11 @@
+package devices;
+
 public class Car {
 
-    String producer;
-    String model;
-    String registrationNumber;
-    Integer yearOfProduction;
+    public String producer;
+    public String model;
+    public String registrationNumber;
+    public Integer yearOfProduction;
     private String plates;
     private Integer valueOfCar;
 

@@ -1,3 +1,5 @@
+import devices.Car;
+
 public class Main {
 
     public static void main(String[] args) throws Exception {
@@ -42,7 +44,7 @@ public class Main {
 
         String buy=me.buyCar();
 
-        System.out.printf(buy);
+        System.out.println(buy);
 
 
 
@@ -52,6 +54,7 @@ public class Main {
         wife.firstName = "Koksana";
         wife.lastName = "Koksowska";
         wife.car = dirtyOne;
+
 
         String carInfo = car.toString();
         System.out.println(carInfo);
