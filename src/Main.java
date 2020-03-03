@@ -61,6 +61,8 @@ public class Main {
 
         String humanInfo = me.toHej();
         System.out.println(humanInfo);
+        wife.feed();
+
 
     }
 
