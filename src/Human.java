@@ -28,6 +28,12 @@ public class Human {
         } else {
             return "nie";
         }
-
     }
+    public String toHej(){
+
+        return this.firstName+" "+this.lastName;
+    }
+
+
 }
+

@@ -30,4 +30,9 @@ public class Car {
     public void setValueOfCar(Integer valueOfCar) {
         this.valueOfCar = valueOfCar;
     }
+
+    public String toString(){
+
+        return this.producer+" "+this.model;
+    }
 }

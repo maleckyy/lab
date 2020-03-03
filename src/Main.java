@@ -9,9 +9,6 @@ public class Main {
         me.pet.name = "Myszojeleń";
 
 
-
-
-
         System.out.printf("s");
         me.pet.feed();
         me.pet.feed();
@@ -51,8 +48,20 @@ public class Main {
 
         System.out.println(dirtyOne.getPlates());
 
+        Human wife = new Human();
+        wife.firstName = "Koksana";
+        wife.lastName = "Koksowska";
+        wife.car = dirtyOne;
+
+        String carInfo = car.toString();
+        System.out.println(carInfo);
+
+        String humanInfo = me.toHej();
+        System.out.println(humanInfo);
 
     }
+
+
 
 
 }
