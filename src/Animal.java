@@ -10,7 +10,7 @@ public class Animal {
     public static final Double DEFAULT_MOUSE_WEIGHT = 1.0;
     public static final Double DEFAULT_LION_WEIGHT = 123.0;
 
-    public Animal(String species) {
+    public Animal (String species) {
         this.species = species;
         if (species == "dog") {
             this.weight = DEFAULT_DOG_WEIGHT;

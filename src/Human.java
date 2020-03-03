@@ -1,7 +1,7 @@
 import devices.Car;
 import devices.Phone;
 
-public class Human {
+public class Human extends Animal {
     String firstName;
     String lastName;
     Phone phone;
@@ -9,6 +9,10 @@ public class Human {
     Car car;
 
     private Double salary = 3000.22;
+
+    public Human() {
+        super(species:"homo sapiens");
+    }
 
 
     public void riseSalary() {
