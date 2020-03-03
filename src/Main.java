@@ -8,6 +8,7 @@ public class Main {
         me.pet = new Animal("mouse");
         me.pet.name = "Myszojeleń";
 
+
         me.pet.feed();
         me.pet.feed();
         me.pet.feed();
