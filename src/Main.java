@@ -22,6 +22,6 @@ public class Main {
         me.pet.takeForAWalk();
         me.pet.takeForAWalk();
         me.pet.feed();
-
+        System.out.println("hejjjj");
     }
 }
