@@ -9,6 +9,7 @@ public class Main {
         me.pet.name = "Myszojeleń";
 
 
+        System.out.printf("s");
         me.pet.feed();
         me.pet.feed();
         me.pet.feed();
