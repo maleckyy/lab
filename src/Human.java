@@ -11,7 +11,7 @@ public class Human extends Animal {
     private Double salary = 3000.22;
 
     public Human() {
-        super(species:"homo sapiens");
+        super("homo sapiens");
     }
 
 
