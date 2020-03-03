@@ -9,6 +9,9 @@ public class Main {
         me.pet.name = "Myszojeleń";
 
 
+
+
+
         System.out.printf("s");
         me.pet.feed();
         me.pet.feed();
@@ -32,14 +35,24 @@ public class Main {
         car.model = "V40";
         car.registrationNumber = "ojniewiem";
         car.yearOfProduction = 2004;
-      //  car.plates = "gdxd";
+        car.setValueOfCar(1000);
+        //  car.plates = "gdxd";
         dirtyOne.setPlates("haha123");
 
         me.car = dirtyOne;
+
+        me.car.setValueOfCar(1000);
+
+        String buy=me.buyCar();
+
+        System.out.printf(buy);
+
 
 
         System.out.println(dirtyOne.getPlates());
 
 
     }
+
+
 }

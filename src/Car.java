@@ -5,6 +5,7 @@ public class Car {
     String registrationNumber;
     Integer yearOfProduction;
     private String plates;
+    private Integer valueOfCar;
 
 
     public String getPlates() {
@@ -20,5 +21,13 @@ public class Car {
         } else {
             this.plates = plates;
         }
+    }
+
+    public Integer getValueOfCar() {
+        return valueOfCar;
+    }
+
+    public void setValueOfCar(Integer valueOfCar) {
+        this.valueOfCar = valueOfCar;
     }
 }
