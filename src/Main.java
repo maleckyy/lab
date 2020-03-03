@@ -1,6 +1,6 @@
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
 
         Human me = new Human();
         me.firstName = "Kacper";
@@ -32,13 +32,13 @@ public class Main {
         car.model = "V40";
         car.registrationNumber = "ojniewiem";
         car.yearOfProduction = 2004;
-        car.plates = "gdxd";
-        dirtyOne.plates = "haha";
+      //  car.plates = "gdxd";
+        dirtyOne.setPlates("haha123");
 
         me.car = dirtyOne;
 
 
-        System.out.println(dirtyOne.plates);
+        System.out.println(dirtyOne.getPlates());
 
 
     }
